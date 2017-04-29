@@ -8,6 +8,7 @@ module.exports = {
     'prefer-object-spread',
     'promise',
     'react',
+    'security',
   ],
   extends: [
     './rules/es6',
@@ -15,5 +16,6 @@ module.exports = {
     './rules/import',
     './rules/react',
     './rules/flowtype',
+    './rules/security',
   ].map(require.resolve),
 }
